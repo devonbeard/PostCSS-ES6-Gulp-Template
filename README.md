@@ -3,13 +3,17 @@
 This template includes PostCSS & ES2015 (ES6) compliation
 
 
-# PostCSS
+## PostCSS
 
-Replace preprocessors with postCSS. PostCSS lets us take advantage of plugins that we can use to enable future css syntax and start using it today.
+PostCSS is a tool for transforming CSS with JS plugins. These plugins can support variables and mixins, transpile future CSS syntax, inline images, and more. [PostCSS](https://github.com/postcss/postcss)
 
 
 
-# Gulp Production
+## Development Mode
+
+Run `gulp` to start your development mode. This will start your gulp tasks.
+
+## Production Mode
 
 Run `gulp production` to minify your assets. Your assets will minify only after the test suite has passed. These assets will be saved to `dist/min`.
 
